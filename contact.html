@@ -72,12 +72,23 @@ Emilie Fortier-Marcoux
       <div class="col-md-6 col-sm-12 mt-5 pt-5">
         <h1 class="section__formulaire--text"> Formulaire de contact </h1>
         <h6 class="section__formulaire--text">Tu as des questions, commentaires, suggestions? Merci de m'en faire part, je te reviendrai dans les plus brefs délais.</h6>
-        <form>
+        <form name="myForm" action="action_page.php" onsubmit="return validerForm()" method="post">
           <div class="form-group">
-            <input type="text" class="form-control" id="Nom" placeholder="Ton Nom">
+            <input type="text" id="nom" name="nom" minlength="2" maxlength="50" pattern="[A-za-z].{1,50}" placeholder="nom" class="form-control" required placeholder="Ton prenom">
+            <input type="text" id="nom" name="nom" minlength="2" maxlength="50" pattern="[A-za-z].{1,50}" placeholder="nom" class="form-control" required placeholder="Ton nom">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="Courriel" placeholder="Adresse courriel">
+            <input type="email" placeholder="Courriel*" minlength="6" maxlength="75" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+          </div>          
+          <div class="form-group">
+            <input type="tel" placeholder="Numero de telephone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          </div>
+          <div class="form-group">
+            <select id="" name="">
+                <option value="Devis">Devis</option>
+                <option value="Questions">Question</option>
+                <option value="Newsletter">Commentaire</option>
+              </select>
           </div>
           <div class="form-group">
             <textarea class="form-control" id="desc" rows="3" placeholder="Ecris ici pour nous contacter, on te reviendra le plus tot possible."></textarea>
