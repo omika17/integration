@@ -9,9 +9,9 @@ const FILES_TO_CACHE = [
     'portfolio.html',
     'reception.html',
     'js/script.js',
-    'css/animation.css',
+    'css/Animation.css',
     'css/index.css',
-    'css/style.css',    
+    'css/style.css'  
 ];
 
 self.addEventListener('install', (evt) => {
