@@ -21,6 +21,12 @@
         "type": "image/png",
         "purpose": "any maskable"
 
+    }, {
+        "src":"/Medias/img/favicon_io/FavIconCarre.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+
     }],
     "start_url": "https://omika17.github.io/integration/index.html",
     "display": "standalone",
