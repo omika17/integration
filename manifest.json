@@ -12,7 +12,12 @@
         "type": "image/png",
         "purpose": "any maskable"
     }, {
-        "src":"/img/favicon_io/android-icon192x192.png",
+        "src":"/img/favicon_io/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src":"/img/favicon_io/android-icon-192x192.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any maskable"
