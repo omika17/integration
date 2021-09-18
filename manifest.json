@@ -4,8 +4,7 @@
     "icons":[{
         "src":"/Medias/img/favicon_io/FavIcon16x16.png",
         "sizes": "16x16",
-        "type": "image/png",
-        "purpose": "any maskable"
+        "type": "image/png"
     }, {
         "src":"/Medias/img/favicon_io/FavIcon32x32.png",
         "sizes": "32x32",
@@ -23,7 +22,7 @@
         "purpose": "any maskable"
 
     }],
-    "start_url": "https://omika17.github.io/integration/",
+    "start_url": "https://omika17.github.io/integration",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#24cec6"
