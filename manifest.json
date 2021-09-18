@@ -22,7 +22,7 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "start_url": "https://omika17.github.io/integration/index.html",
+    "start_url": "https://omika17.github.io/integration/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#24cec6"
