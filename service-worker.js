@@ -57,7 +57,7 @@ self.addEventListener('fetch', (evt) => {
             .catch(() => {
                 return caches.open(CACHE_NAME)
                     .then((cache) => {
-                        return cache.match('https://omika17.github.io/Interface/offline.html');
+                        return cache.match('https://omika17.github.io/Interface/index.html');
                     });
             })
     );
