@@ -59,7 +59,7 @@ self.addEventListener('install', (evt) => {
         .catch(() => {
         return caches.open(CACHE_NAME)
         .then((cache) => {
-        return cache.match('https://omika17.github.io/integration/offline.html' );
+        return cache.match('https://omika17.github.io/integration/index.html' );
         });
         })
         );
