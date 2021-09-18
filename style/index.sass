@@ -1,0 +1,36 @@
+@use "datas.sass" as d
+
+.section__accueil
+    @include d.section
+    background-color: d.$turquoise
+    .section__accueil--img
+        @include d.soussectionfull
+        img:hover
+            opacity: 0
+
+.section__services
+    @include d.section
+    .section__services--cards
+        @include d.soussectionfull
+        h1
+            font-size: 10vh
+            padding: 10px 
+        .section__services--card
+            padding:  10px 10px
+            margin: 2px 2px
+
+.section__banniereportfolio
+    @include d.section
+    background-color: d.$grey
+    .section__banniereportfolio--btn
+        @include d.soussectionfull
+        a
+            padding: 5vh 5vh
+            h2
+                color: d.$turquoise      
+#section__banniereportfolio--img
+        width:50%
+        padding: 10px 10px
+        margin: 10px 10px
+        text-align: center
+

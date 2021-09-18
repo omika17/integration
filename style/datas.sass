@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap')
+$font-stack: 'Quicksand'
+$imgpath: "../Medias/img"
+
+
+$turquoise: #24cec6
+$white: #ffffff
+$grey: #cfcfcf
+$fullvh : 100vh
+$full : 100%
+
+@mixin section
+    width: $full 
+    display: table
+    height: $fullvh
+
+@mixin soussection
+    display: table-cell
+    vertical-align: middle
+
+@mixin soussectionfull
+    @include soussection
+    width: $full
+    height: 80vh
+    

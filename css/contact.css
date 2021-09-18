@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+.section__contact {
+  width: 100%;
+  display: table;
+  height: 100vh;
+  background-color: #24cec6;
+  color: #ffffff;
+}
+.section__contact .section__banniereportfolio--btn {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__contact .section__banniereportfolio--btn a {
+  color: #ffffff;
+}/*# sourceMappingURL=contact.css.map */

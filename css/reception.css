@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+.section__reception {
+  width: 100%;
+  display: table;
+  height: 100vh;
+}
+.section__reception .section__reception--text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+
+.section__reception2 {
+  width: 100%;
+  display: table;
+  height: 100vh;
+  background-image: url("../Medias/img/favicon_io/FavIcon32x32.png");
+  background-repeat: repeat;
+}
+.section__reception2 .section__reception--text2 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}/*# sourceMappingURL=reception.css.map */

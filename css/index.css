@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+.section__accueil {
+  width: 100%;
+  display: table;
+  height: 100vh;
+  background-color: #24cec6;
+}
+.section__accueil .section__accueil--img {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__accueil .section__accueil--img img:hover {
+  opacity: 0;
+}
+
+.section__services {
+  width: 100%;
+  display: table;
+  height: 100vh;
+}
+.section__services .section__services--cards {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__services .section__services--cards h1 {
+  font-size: 10vh;
+  padding: 10px;
+}
+.section__services .section__services--cards .section__services--card {
+  padding: 10px 10px;
+  margin: 2px 2px;
+}
+
+.section__banniereportfolio {
+  width: 100%;
+  display: table;
+  height: 100vh;
+  background-color: #cfcfcf;
+}
+.section__banniereportfolio .section__banniereportfolio--btn {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__banniereportfolio .section__banniereportfolio--btn a {
+  padding: 5vh 5vh;
+}
+.section__banniereportfolio .section__banniereportfolio--btn a h2 {
+  color: #24cec6;
+}
+
+#section__banniereportfolio--img {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

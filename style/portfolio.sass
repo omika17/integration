@@ -1,0 +1,17 @@
+@use "datas.sass" as d
+
+.section__portfolio
+    @include d.section
+    padding: 0 7%
+    margin:0
+    background-color: d.$turquoise
+    .section__portfolio--text
+        @include d.soussectionfull
+        h1
+            font-size: 5vw
+            color: d.$white
+
+.section__brand
+    @include d.section
+    .section__brand--caroussel
+        @include d.soussectionfull

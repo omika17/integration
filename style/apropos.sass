@@ -1,0 +1,19 @@
+@use "datas.sass" as d
+    
+.apropos__banniere
+    background: url("#{d.$imgpath}/banniereomika.png")
+    display: table
+    background-repeat: no-repeat
+    color: d.$white
+    height: 100vh
+    .apropos__banniere--row
+        @include d.soussection
+        .apropos__banniere--texte
+            display: block
+            background-color: d.$white
+            opacity: 0.5
+            color: d.$turquoise
+            padding: 5px 5px 
+            margin: 5px 5px
+
+

@@ -1,0 +1,56 @@
+@use "datas.sass" as d
+
+body   
+    color : d.$grey
+    font : d.$font-stack
+    height: d.$full
+    font-family: d.$font-stack
+    align-content: center
+    text-align: center
+
+html
+    height: d.$full
+
+img
+    filter: saturate(0.5)
+    opacity: 0.5
+    border-radius: 25%
+img:hover
+    opacity:1
+
+.button
+    padding: 3px 10px
+
+a
+    text-decoration: none
+    color: d.$grey
+    :hover
+        color: $white
+
+.card
+    border: 0
+    img
+        width: d.$full
+        height: 15vw
+        object-fit: cover
+
+.btn-primary
+    background-color:d.$turquoise 
+    border: none
+.btn-primary:hover
+    background-color:d.$grey
+
+
+.section__formulaire--text
+    color:d.$turquoise          
+            
+
+
+
+
+    
+
+
+
+
+

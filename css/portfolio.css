@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+.section__portfolio {
+  width: 100%;
+  display: table;
+  height: 100vh;
+  padding: 0 7%;
+  margin: 0;
+  background-color: #24cec6;
+}
+.section__portfolio .section__portfolio--text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__portfolio .section__portfolio--text h1 {
+  font-size: 5vw;
+  color: #ffffff;
+}
+
+.section__brand {
+  width: 100%;
+  display: table;
+  height: 100vh;
+}
+.section__brand .section__brand--caroussel {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}/*# sourceMappingURL=portfolio.css.map */

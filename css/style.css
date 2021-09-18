@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+body {
+  color: #cfcfcf;
+  font: "Quicksand";
+  height: 100%;
+  font-family: "Quicksand";
+  align-content: center;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  filter: saturate(0.5);
+  opacity: 0.5;
+  border-radius: 25%;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.button {
+  padding: 3px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+a :hover {
+  color: #ffffff;
+}
+
+.card {
+  border: 0;
+}
+.card img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #24cec6;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #cfcfcf;
+}
+
+.section__contact {
+  width: 100%;
+  display: table;
+  height: 100vh;
+  background-color: #24cec6;
+  color: #ffffff;
+}
+.section__contact .section__banniereportfolio--btn {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__contact .section__banniereportfolio--btn a {
+  color: #ffffff;
+}
+
+.section__formulaire--text {
+  color: #24cec6;
+}
+
+.section__portfolio {
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  background-color: #24cec6;
+}
+.section__portfolio .section__portfolio--text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+.section__portfolio .section__portfolio--text h1 {
+  font-size: 5vw;
+  color: #ffffff;
+}
+
+.section__brand {
+  max-width: none;
+}
+.section__brand .section__brand--caroussel {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+
+.section__reception .section__reception--text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+
+.section__reception2 {
+  background-image: url("../Medias/img/favicon_io/FavIcon32x32.png");
+  background-repeat: repeat;
+}
+.section__reception2 .section__reception--text2 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80vh;
+}
+
+.apropos__banniere {
+  background: url("../Medias/img/banniereomika.png");
+  display: table;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100vh;
+}
+.apropos__banniere .apropos__banniere--row {
+  display: table-cell;
+  vertical-align: middle;
+}
+.apropos__banniere .apropos__banniere--row .apropos__banniere--texte {
+  display: block;
+  background-color: #ffffff;
+  opacity: 0.5;
+  color: #24cec6;
+  padding: 5px 5px;
+  margin: 5px 5px;
+}/*# sourceMappingURL=style.css.map */
