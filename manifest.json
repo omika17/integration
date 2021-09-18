@@ -2,27 +2,28 @@
     "name": "Omika",
     "short_name": "Omika",
     "icons":[{
-        "src":"/Medias/img/favicon_io/FavIcon16x16.png",
+        "src":"https://github.com/omika17/integration/blob/master/Medias/img/favicon_io/FavIcon16x16.png",
         "sizes": "16x16",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
     }, {
-        "src":"/Medias/img/favicon_io/FavIcon32x32.png",
+        "src":"https://github.com/omika17/integration/blob/master/Medias/img/favicon_io/FavIcon32x32.png",
         "sizes": "32x32",
         "type": "image/png",
         "purpose": "any maskable"
     }, {
-        "src":"/Medias/img/favicon_io/FavIcon192x192.png",
+        "src":"https://github.com/omika17/integration/blob/master/Medias/img/favicon_io/FavIcon192x192.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any maskable"
     }, {
-        "src":"/Medias/img/favicon_io/FavIcon512x512.png",
+        "src":"https://github.com/omika17/integration/blob/master/Medias/img/favicon_io/FavIcon512x512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any maskable"
 
     }, {
-        "src":"/Medias/img/favicon_io/FavIconCarre.png",
+        "src":"https://github.com/omika17/integration/blob/master/Medias/img/favicon_io/FavIconCarre.png",
         "sizes": "144x144",
         "type": "image/png",
         "purpose": "any maskable"
