@@ -5,32 +5,127 @@ Emilie Fortier-Marcoux
 <!-- Emilie Fortier
   Derniere modification 18 sept 2021 22h-->
   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-=no">
-  <meta charset="UTF-8">
-    <meta name="description" content="Application du site Omika">
-    <meta name="theme-color" content="#24cec6" />
-    <link rel="manifest" href="https://omika17.github.io/integration/manifest.json">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Omika app">
-    <link rel="apple-touch-icon"  href="./Medias/img/favicon_io/apple-icon-180x180.png" alt="Omika apple favicon">
-    <title>Omika design</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">    
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="./css/animation.css">
-    <!--Facvicon et fontawesome -->
-    <link rel="icon" type="image/png" href="./Medias/img/favicon_io/android-chrome-512x512.png" alt="Omika 512 favicon">
-    <link rel="icon" type="image/png" href="./Medias/img/favicon_io/favicon-32x32.png"  alt="Omika 32 favicon">
-    <link rel="icon" type="image/png" href="./Medias/img/favicon_io/favicon-16x16.png"  alt="Omika 16 favicon">
-    <script defer src="./Medias/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/js/all.js"></script>
-</head>
-
-
-
-<body>
-</body>
-</html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-=no">
+    <meta charset="UTF-8">
+      <meta name="description" content="Application du site Omika">
+      <meta name="theme-color" content="#24cec6" />
+      <link rel="manifest" href="https://omika17.github.io/integration/manifest.json">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="apple-mobile-web-app-title" content="Omika app">
+      <link rel="apple-touch-icon"  href="./Medias/img/favicon_io/apple-icon-180x180.png" alt="Omika apple favicon">
+      <title>Omika design</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">    
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <link rel="stylesheet" type="text/css" href="./css/index.css">
+      <link rel="stylesheet" type="text/css" href="./css/animation.css">
+      <!--Facvicon et fontawesome -->
+      <link rel="icon" type="image/png" href="./Medias/img/favicon_io/android-chrome-512x512.png" alt="Omika 512 favicon">
+      <link rel="icon" type="image/png" href="./Medias/img/favicon_io/favicon-32x32.png"  alt="Omika 32 favicon">
+      <link rel="icon" type="image/png" href="./Medias/img/favicon_io/favicon-16x16.png"  alt="Omika 16 favicon">
+      <script defer src="./Medias/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/js/all.js"></script>
+  </head>
+  
+  
+  
+  <body>
+  <!--MENU-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Omika Design</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse hamburger-squeeze" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="apropos.html">A propos</a>
+          </li>        
+          <li class="nav-item">
+            <button class="nav-link px-lg-4 px-2" id="butInstall" aria-label="Install" hidden>Installer Omika App</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      
+  
+  <!-- Banniere accueil -->
+  <section class="section__accueil">
+          <img src="Medias/img/LogoBlanc.svg" class=" section__accueil--img" heartbeat alt="Omika">
+  </section>
+  
+  
+  <!-- Banniere services -->
+  <section class="section__services">
+    <div class="section__services--cards">
+    <h1 class="section__services--h1">Services</h1>
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 mb-3 ">
+          <div class="card section__services--card">
+            <div class="card-body">
+            <h2>Creation de Logo et Brands pour jeunes entrepreuneurs!</h2>
+            <h2><i class="far fa-lightbulb"></i></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3 ">
+          <div class="card section__services--card">
+            <div class="card-body">
+              <h2>Brainstorming creatif pour vous demarquer en affirmant vorte brand!</h2>
+              <h2><i class="far fa-lightbulb"></i></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3 ">
+          <div class="card section__services--card">
+            <div class="card-body">
+              <h2>Creation clef-en-main du design au produit fini</h2>
+              <h2><i class="far fa-lightbulb"></i></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Banniere Portfolio -->
+  
+  <section class="section__banniereportfolio">
+      <div class="row section__banniereportfolio--btn">          
+           <img class="img-fluid" id="section__banniereportfolio--img" src="Medias/img/PhotographisteOmika2.png" alt="banniereportfolio">
+            <a type="button" class="btn btn-light heartbeat" href="portfolio.html"><h2>Pour voir nos realisations</h2></a>
+        </div>
+    </section>
+  
+  
+  <hr>
+  <footer>
+    <h6> Omika Design</h6> <img src="Medias/img/favicon_io/favicon-16x16.png" alt="logo Omika Footer">
+  </footer>
+  
+  
+  
+  </body>
+  
+  
+  <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  
+  
+  <script src="js/install.js"></script>
+  </html>

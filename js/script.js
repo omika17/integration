@@ -56,10 +56,31 @@ setInterval(changeWord, 4000);
 
 //Valider formulaire
 function validerForm() {
- var x = document.forms["myForm"]["inputName"].value;
- if (x == "") {
+var n = document.forms["myForm"]["nom"].value;
+var p = document.forms["myForm"]["prenom"].value;
+var t = document.forms["myForm"]["texte"].value;
+var c = document.forms["myForm"]["courriel"].value;
+var e = document.forms["myForm"]["tel"].value;
+  if (n == "") {
  alert("Veuillez remplir le champs Nom");
  return false;
  }
+ if (p == "") {
+  alert("Veuillez remplir le champs Nom");
+  return false;
+  }
+  if (t == "") {
+    alert("Veuillez remplir le champs Nom");
+    return false;
+    }  
+  if (c == "") {
+      alert("Veuillez remplir le champs Nom");
+      return false;
+      }  
+  if (e == "") {
+        alert("Veuillez remplir le champs Nom");
+        return false;
+        }
+  
 }
 
