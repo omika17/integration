@@ -43,25 +43,20 @@ self.addEventListener('install', (evt) => {
             self.clients.claim();
             });
             
-    self.addEventListener('fetch', (evt) => {
+self.addEventListener('fetch', (evt) => {
     console.log('[ServiceWorker] Fetch', evt.request.url);
-
-
-    self.addEventListener('fetch', (evt) => {
-        console.log('[ServiceWorker] Fetch', evt.request.url);
-        //Add fetch event handler here.
-        if (evt.request.mode !== 'navigate') {
-        // Not a page navigation, bail.
+    //Add fetch event handler here.
+    if (evt.request.mode !== 'navigate') {
+    // Not a page navigation, bail.
         return;
         }
-        evt.respondWith(
-        fetch(evt.request)
-        .catch(() => {
+evt.respondWith(
+    fetch(evt.request)
+    .catch(() => {
         return caches.open(CACHE_NAME)
         .then((cache) => {
         return cache.match('https://omika17.github.io/integration/index.html' );
         });
         })
         );
-        });
-        });
+    });

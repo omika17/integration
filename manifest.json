@@ -1,7 +1,7 @@
 {
     "name": "Omika",
     "short_name": "Omika",
-    "icons":[{
+    "icons": [{
         "src":"/img/favicon_io/favicon-16x16.png",
         "sizes": "16x16",
         "type": "image/png",
