@@ -54,5 +54,12 @@ function splitLetters(word) {
 changeWord();
 setInterval(changeWord, 4000);
 
-
+//Valider formulaire
+function validerForm() {
+ var x = document.forms["myForm"]["inputName"].value;
+ if (x == "") {
+ alert("Veuillez remplir le champs Nom");
+ return false;
+ }
+}
 

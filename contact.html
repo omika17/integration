@@ -63,6 +63,27 @@ Emilie Fortier-Marcoux
 </div>
   
 <!-- FORMULAIRE -->
+<!--VALIDATION PHP-->
+<?php
+// define variables and set to empty values
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $email = test_input($_POST["email"]);
+  $website = test_input($_POST["website"]);
+  $comment = test_input($_POST["comment"]);
+  $gender = test_input($_POST["gender"]);
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+
 <section div="section__formulaire">
   <div class="container mt-5">
     <div class="row">
@@ -72,16 +93,16 @@ Emilie Fortier-Marcoux
       <div class="col-md-6 col-sm-12 mt-5 pt-5">
         <h1 class="section__formulaire--text"> Formulaire de contact </h1>
         <h6 class="section__formulaire--text">Tu as des questions, commentaires, suggestions? Merci de m'en faire part, je te reviendrai dans les plus brefs délais.</h6>
-        <form name="myForm" action="action_page.php" onsubmit="return validerForm()" method="post">
+        <form name="myForm" action="./reception.html" onsubmit="return validerForm()" method="post">
           <div class="form-group">
-            <input type="text" id="nom" name="nom" minlength="2" maxlength="50" pattern="[A-za-z].{1,50}" placeholder="nom" class="form-control" required placeholder="Ton prenom">
-            <input type="text" id="nom" name="nom" minlength="2" maxlength="50" pattern="[A-za-z].{1,50}" placeholder="nom" class="form-control" required placeholder="Ton nom">
+            <input type="text" id="prenom" name="prenom" minlength="2" maxlength="50" pattern="[A-za-z].{1,50}" placeholder="nom" class="form-control" required ="Ton prenom" placeholder>
+            <input type="text" id="nom" name="nom" minlength="2" maxlength="50" pattern="[A-za-z].{1,50}" placeholder="nom" class="form-control" required ="Ton nom" placeholder>
           </div>
           <div class="form-group">
-            <input type="email" placeholder="Courriel*" minlength="6" maxlength="75" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <input type="email" name="courriel" placeholder="Courriel*" minlength="6" maxlength="75" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
           </div>          
           <div class="form-group">
-            <input type="tel" placeholder="Numero de telephone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="tel" name="tel" placeholder="Numero de telephone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
           </div>
           <div class="form-group">
             <select id="" name="">
@@ -91,7 +112,7 @@ Emilie Fortier-Marcoux
               </select>
           </div>
           <div class="form-group">
-            <textarea class="form-control" id="desc" rows="3" placeholder="Ecris ici pour nous contacter, on te reviendra le plus tot possible."></textarea>
+            <textarea class="form-control" id="desc" rows="3" name="texte" placeholder="Ecris ici pour nous contacter, on te reviendra le plus tot possible." required></textarea>
           </div>
           <a type="submit" class="btn btn-primary" href="reception.html">Envoyer!</a>
         </form>
